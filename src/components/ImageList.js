@@ -1,7 +1,7 @@
 import React from "react";
 
-const ImageList = () => {
-  return <div>ImageList</div>;
+const ImageList = ({ images }) => {
+  return <div>ImageList: {images.length}</div>;
 };
 
 export default ImageList;
